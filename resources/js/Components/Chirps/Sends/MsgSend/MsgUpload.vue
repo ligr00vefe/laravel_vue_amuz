@@ -48,7 +48,7 @@
           class="block w-full min-h-[295px] border-[#CECECE] text-sm sm:text-base rounded-lg shadow-sm p-3 sm:p-4"
           placeholder="내용을 입력해 주세요. 90byte 초과 시 장문 문자로, 이미지 추가 시 포토 문자로 자동 전환 됩니다."
         ></textarea>
-        <InputError :message="form.errors.message" class="mt-2" />
+        <InputError :message="form.errors.message" class="absolute -b-10 mt-0 sm:mt-1" />
 
         <div id="textarea-options">
           <ul class="absolute right-0 bottom-0 pb-4 pr-4 flex gap-3">
