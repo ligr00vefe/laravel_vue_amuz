@@ -5,11 +5,11 @@
     const props = defineProps({
         type: String,
         href: String,
-        plusIcon: String,
+        isPlusIcon: String,
         textColor: String,
         maxWidth: Number,
     });
-    // console.log('plusIcon: ', props.plusIcon);
+    // console.log('isPlusIcon: ', props.isPlusIcon);
     // console.log('maxWidth_type: ', typeof props.maxWidth);
 </script>
 
@@ -25,7 +25,7 @@
         :style="{ maxWidth: props.maxWidth, color: props.textColor }"
         alt="링크 버튼"
     >
-        <PlusIcon v-if="props.plusIcon" :textColor="props.textColor" />
+        <PlusIcon v-if="props.isPlusIcon" :text-color="props.textColor" />
 
         <slot />
         

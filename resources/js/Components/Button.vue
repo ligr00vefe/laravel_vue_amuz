@@ -3,11 +3,11 @@
 
     const props = defineProps({
         type: String,
-        plusIcon: String,
+        isPlusIcon: String,
         textColor: String,
         maxWidth: Number,
     });
-    // console.log('plusIcon: ', props.plusIcon);
+    // console.log('isPlusIcon: ', props.isPlusIcon);
     // console.log('maxWidth_type: ', typeof props.maxWidth);
 </script>
 
@@ -20,7 +20,7 @@
             focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 dark:focus:ring-offset-gray-800 transition ease-in-out duration-150"
         :style="{ maxWidth: props.maxWidth, color: props.textColor }"
     >
-        <PlusIcon v-if="props.plusIcon" :color="props.cotextColorlor" />
+        <PlusIcon v-if="props.isPlusIcon === 'true'" :text-color="props.textColor" />
         <slot />
     </button>
 </template>

@@ -1,6 +1,6 @@
 <script setup>
     import { ref, onMounted, onUnmounted } from 'vue';
-    import { usePage } from '@inertiajs/vue3'
+    // import { usePage } from '@inertiajs/vue3'
     import { Link } from '@inertiajs/vue3';
 
     import ApplicationLogo from '@/Components/ApplicationLogo.vue';
@@ -17,8 +17,8 @@
     const currentPath = window.location.pathname;
     // console.log('currentPath: ', currentPath);
 
-    const path = usePage().props;
-    console.log('path: ', path);
+    // const path = usePage().props;
+    // console.log('path: ', path);
 
     if (currentPath === '/welcome') {
         // 메인 페이지

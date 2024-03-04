@@ -55,7 +55,7 @@ const updateReceivingNumber = (event) => {
           v-model="newReceivingNumber"
           @input="updateReceivingNumber"
         />
-        <Button type="button" plus-icon="true" color="white" :max-width="115" class="ml-2 text-sm sm:text-lg cursor-not-allowed">추가</Button> 
+        <Button is-plus-icon="true" text-color="#fff" max-width="115px" class="ml-2 text-sm sm:text-lg cursor-not-allowed">추가</Button> 
       </div>
 
       <div id="added-list">

@@ -26,7 +26,7 @@
       <div class="mt-4 sm:mt-7 flex items-center justify-between">
         <strong class="pretendard-font font-semibold text-base sm:text-2xl text-black">330,000 크레딧</strong>
         <span class="py-1 sm:py-[7px] pl-[2px] sm:pl-[5px] pr-[5px] sm:pr-[10px] bg-[#E0EDFF] rounded-xl flex items-center justify-center pretendard-font font-semibold text-xs sm:text-sm text-[#2116BF] align-middle">
-          <PlusIcon color="#2116BF" icon-size="20" />
+          <PlusIcon text-color="#2116BF" icon-size="20" />
           10%
         </span>
       </div>
@@ -39,14 +39,14 @@
         <p class="flex items-center justify-between mt-3">
           <span class="pretendard-font text-xs sm:text-sm text-[#6E6E6E]">추가 크레딧</span>
           <span class="pretendard-font text-sm sm:text-base text-[#070707] flex items-center">
-            <PlusIcon color="#070707" icon-size="20" />
+            <PlusIcon text-color="#070707" icon-size="20" />
             10,000
           </span>
         </p>
       </div>
       
       <form class="mt-5 sm:mt-8">
-        <Button>
+        <Button text-color="#fff">
           구매하기
         </Button>
       </form>
