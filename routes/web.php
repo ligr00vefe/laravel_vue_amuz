@@ -45,7 +45,6 @@ Route::get('/welcome', function () {
 // });
 
 Route::redirect('/', '/welcome');
-
 Route::redirect('/dashboard', '/welcome');
 
 Route::middleware('auth')->group(function () {

@@ -12,7 +12,7 @@
         subTitle: String,
     });
 
-    console.log('main-id: ' + props.mainId);
+    // console.log('main-id: ' + props.mainId);
     // console.log('title: ' + props.title);
     // console.log('subTitle: ' + props.subTitle);
 </script>
@@ -29,7 +29,7 @@
             <MainGridContent01 v-if="props.mainId === '02'" />
 
             <MainGridContent02 v-if="props.mainId === '03'" />
-            
+
             <MainGridContent03 v-if="props.mainId === '04'" />
 
         </div>

@@ -3,7 +3,7 @@
     import { Head, Link } from '@inertiajs/vue3';
     import AuthenticatedLayout from '@/Layouts/AuthenticatedLayout.vue';
     import MainGridLayout from '@/Layouts/MainGridLayout.vue';
-    import RoundedButton from '@/Components/RoundedLink.vue';
+    import RoundedLink from '@/Components/RoundedLink.vue';
     import Footer from '@/Layouts/Footer.vue';
 
     const mainGridList = ref([
@@ -80,7 +80,7 @@
                     비지니스 광고의 시작,<br /> 이제 샌드고와 함께 하세요.
                 </strong>
 
-                <RoundedButton type="Link" :href="route('chirps.index')" class="max-w-[150px] sm:max-w-[206px] text-white gap-3 sm:gap-4 mt-8 sm:mt-12">메시지 바로가기</RoundedButton>
+                <RoundedLink :href="route('chirps.index')" class="max-w-[150px] sm:max-w-[206px] text-white gap-3 sm:gap-4 mt-8 sm:mt-12">메시지 바로가기</RoundedLink>
                 
             </div>            
         </div>
