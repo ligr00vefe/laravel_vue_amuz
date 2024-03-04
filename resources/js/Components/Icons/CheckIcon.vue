@@ -1,0 +1,15 @@
+<script setup>
+  defineProps(['color', 'iconSize']);
+</script>
+
+<template>
+  <svg xmlns="http://www.w3.org/2000/svg" :width="iconSize ? iconSize : '32'" :height="iconSize ? iconSize : '32'" viewBox="0 0 32 32">
+      <g id="그룹_46627" data-name="그룹 46627" transform="translate(-503 -2142)">
+          <g id="사각형_26989" data-name="사각형 26989" transform="translate(503 2142)" fill="#fff" :stroke="color" stroke-width="1" opacity="0">
+          <rect width="32" height="32" stroke="none"/>
+          <rect x="0.5" y="0.5" width="31" height="31" fill="none"/>
+          </g>
+          <path id="Icon_feather-check" data-name="Icon feather-check" d="M17.175,9,9.492,16.683,6,13.191" transform="translate(507.207 2145.361)" fill="none" :stroke="color" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      </g>
+  </svg>  
+</template>
